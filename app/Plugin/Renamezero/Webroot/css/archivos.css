@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+a.add-adjuntos{
+	text-decoration: underline;
+	background: url(../images/add.png) no-repeat left;
+	padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.list-adjuntos {
+    margin-top: 15px;
+}
+.adjunto-exists {
+    margin: 5px;
+}
+.adjunto-exists img {
+    margin-left: 4px;
