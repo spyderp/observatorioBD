@@ -1,0 +1,342 @@
+2012-11-19 21:24:33 Error: [MissingControllerException] Controller class LenguajesController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-19 21:26:41 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php, line 50]
+2012-11-19 21:26:41 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 50, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 50, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:28:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php, line 50]
+2012-11-19 21:28:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 50, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 50, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:28:57 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php, line 50]
+2012-11-19 21:28:57 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 50)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 50, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 50, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:30:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php, line 49]
+2012-11-19 21:30:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 49, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 49, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:32:16 Error: [MissingControllerException] Controller class BasedatosController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-19 21:34:28 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php, line 49]
+2012-11-19 21:34:28 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 49)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 49, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 49, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 21:56:54 Error: [MissingControllerException] Controller class SistemaOperativoController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-19 21:56:59 Error: [MissingActionException] Action SistemaOperativosController::index() could not be found.
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SistemaOperativosController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-19 22:04:11 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php, line 41]
+2012-11-19 22:04:11 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 41, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 41, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:05:11 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php, line 42]
+2012-11-19 22:05:11 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 42, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 42, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:05:22 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php, line 42]
+2012-11-19 22:05:22 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 42, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 42, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:07:50 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php, line 42]
+2012-11-19 22:07:50 Error: [FatalErrorException] Call to a member function create() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 42, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 42, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:23:28 Error: [MissingModelException] lenguajes
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('lenguajes', Array, Array)
+#1 /home/spyder/workspace/www/observatorio/app/Controller/LenguajesController.php(17): Controller->paginate('lenguajes', Array)
+#2 [internal function]: LenguajesController->index()
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LenguajesController), Array)
+#4 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LenguajesController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-11-19 22:26:57 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/EmpresasController.php, line 52]
+2012-11-19 22:26:57 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:27:23 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/EmpresasController.php, line 52]
+2012-11-19 22:27:23 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:27:26 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/EmpresasController.php, line 52]
+2012-11-19 22:27:26 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:27:43 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/EmpresasController.php, line 52]
+2012-11-19 22:27:43 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:27:45 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/EmpresasController.php, line 52]
+2012-11-19 22:27:45 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:27:45 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/spyder/workspace/www/observatorio/app/Controller/EmpresasController.php, line 52]
+2012-11-19 22:27:45 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/spyder/wo...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/spyder/wo...', 52, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 22:38:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'AlianzasUniversidad.universidad_id' in 'where clause'
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Alianza...', Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Alianza...', Array, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Alianza...', false)
+#4 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(2630): DboSource->read(Object(AppModel), Array)
+#5 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(1846): Model->find('all', Array)
+#6 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(1743): Model->_saveMulti(Array, '1', Object(Mysql))
+#7 /home/spyder/workspace/www/observatorio/app/Controller/UniversidadesController.php(43): Model->save(Array)
+#8 [internal function]: UniversidadesController->add()
+#9 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UniversidadesController), Array)
+#10 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UniversidadesController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-11-19 23:17:12 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('INSERT INTO `ob...', Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(1009): DboSource->execute('INSERT INTO `ob...')
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(1730): DboSource->create(Object(Idioma), Array, Array)
+#4 /home/spyder/workspace/www/observatorio/app/Controller/IdiomasController.php(43): Model->save(Array)
+#5 [internal function]: IdiomasController->add()
+#6 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(IdiomasController), Array)
+#7 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(IdiomasController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-19 23:24:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'RecursosHumano.nombre' in 'field list'
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Recurso...', Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Recurso...', Array, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Recurso...', false)
+#4 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(2630): DboSource->read(Object(RecursosHumano), Array)
+#5 /home/spyder/workspace/www/observatorio/app/Controller/TitulosController.php(50): Model->find('list', Array)
+#6 [internal function]: TitulosController->add()
+#7 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TitulosController), Array)
+#8 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(TitulosController), Object(CakeRequest), Object(CakeResponse))
+#10 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-11-19 23:36:52 Error: [MissingLayoutException] Layout file "/home/spyder/workspace/www/observatorio/app/View/Plugin/Usuarios/Layouts/login.ctp" is missing.
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/View/View.php(513): View->_getLayoutFileName('login')
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/View/View.php(483): View->renderLayout('', 'login')
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#4 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#5 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-11-19 23:43:39 Error: Fatal Error (1): Undefined class constant 'self::SUCCESS' in [/home/spyder/workspace/www/observatorio/app/Controller/AppController.php, line 124]
+2012-11-19 23:43:39 Error: [FatalErrorException] Undefined class constant 'self::SUCCESS'
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Undefined class...', '/home/spyder/wo...', 124)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', '/home/spyder/wo...', 124, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', '/home/spyder/wo...', 124, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-19 23:47:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.email' in 'field list'
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Usuario...', Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Usuario), Array)
+#5 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Usuario', Array, Array)
+#7 /home/spyder/workspace/www/observatorio/app/Plugin/Usuarios/Controller/UsuariosController.php(45): Controller->paginate('Usuario')
+#8 [internal function]: UsuariosController->index()
+#9 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#10 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-11-19 23:48:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.nombre_completo' in 'field list'
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Usuario...', Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Usuario), Array)
+#5 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Usuario', Array, Array)
+#7 /home/spyder/workspace/www/observatorio/app/Plugin/Usuarios/Controller/UsuariosController.php(45): Controller->paginate('Usuario')
+#8 [internal function]: UsuariosController->index()
+#9 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#10 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-11-19 23:49:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.nombre_completo' in 'field list'
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Usuario...', Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Usuario), Array)
+#5 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Usuario', Array, Array)
+#7 /home/spyder/workspace/www/observatorio/app/Plugin/Usuarios/Controller/UsuariosController.php(45): Controller->paginate('Usuario')
+#8 [internal function]: UsuariosController->index()
+#9 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#10 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-11-19 23:49:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.nombre_completo' in 'field list'
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Usuario...', Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Usuario...', Array, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Usuario...', false)
+#4 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Usuario), Array)
+#5 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Component/PaginatorComponent.php(173): Model->find('all', Array)
+#6 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(1082): PaginatorComponent->paginate('Usuario', Array, Array)
+#7 /home/spyder/workspace/www/observatorio/app/Plugin/Usuarios/Controller/UsuariosController.php(45): Controller->paginate('Usuario')
+#8 [internal function]: UsuariosController->index()
+#9 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#10 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#12 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2012-11-19 23:50:41 Error: Fatal Error (1): Call to undefined method UsuariosController::_checkCaptcha() in [/home/spyder/workspace/www/observatorio/app/Plugin/Usuarios/Controller/UsuariosController.php, line 63]
+2012-11-19 23:50:41 Error: [FatalErrorException] Call to undefined method UsuariosController::_checkCaptcha()
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/spyder/wo...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/spyder/wo...', 63, Array)
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/spyder/wo...', 63, Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-20 18:54:39 Error: Intento de login fallido.
+2012-11-20 18:54:47 Error: Intento de login fallido.
+2012-11-20 19:15:07 Error: 
+2012-11-20 19:15:23 Error: 
+2012-11-20 19:18:59 Error: [MissingControllerException] Controller class BasedatosController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-20 19:19:08 Error: 
+2012-11-20 19:20:03 Error: 
+2012-11-20 19:20:13 Error: 
+2012-11-20 21:31:43 Error: Intento de login fallido.
+2012-11-21 23:48:14 Error: [MissingTableException] Table taxis for model Taxi was not found in datasource default.
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(3179): Model->setSource('taxis')
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(1068): Model->getDataSource()
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Usuario), Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(1516): Model->find('first', Array)
+#4 /home/spyder/workspace/www/observatorio/app/Plugin/Usuarios/Controller/UsuariosController.php(152): Model->read(NULL, '1')
+#5 [internal function]: UsuariosController->edit('1')
+#6 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#7 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-21 23:48:23 Error: [MissingTableException] Table taxis for model Taxi was not found in datasource default.
+#0 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(3179): Model->setSource('taxis')
+#1 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Datasource/DboSource.php(1068): Model->getDataSource()
+#2 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(2630): DboSource->read(Object(Usuario), Array)
+#3 /home/spyder/workspace/www/observatorio/lib/Cake/Model/Model.php(1516): Model->find('first', Array)
+#4 /home/spyder/workspace/www/observatorio/app/Plugin/Usuarios/Controller/UsuariosController.php(152): Model->read(NULL, '1')
+#5 [internal function]: UsuariosController->edit('1')
+#6 /home/spyder/workspace/www/observatorio/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsuariosController), Array)
+#7 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /home/spyder/workspace/www/observatorio/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsuariosController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-11-22 17:02:08 Error: Intento de login fallido.
+2012-11-22 17:03:26 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:03:58 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:04:07 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:04:35 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:05:01 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:07:09 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:07:11 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:07:46 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:08:22 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:09:05 Error: [MissingControllerException] Controller class BasedatosController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:16:52 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:17:12 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-22 17:22:43 Error: [MissingControllerException] Controller class ThemeController could not be found.
+#0 /home/spyder/workspace/www/observatorio/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

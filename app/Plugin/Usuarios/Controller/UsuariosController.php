@@ -54,7 +54,7 @@ class UsuariosController extends UsuariosAppController {
 		//$this->layout = 'login';
 
 		//Titulo para la página del Login. Antes solo se mostraba "Usuarios"
-		$this->set('title_for_layout', __('Acceso al sistema ::: INFOTAXI',true));
+		$this->set('title_for_layout', __('Acceso al sistema ::: Observatorio',true));
 
 		$this->set('userAttempts', intval($this->Session->read('Auth.attempts')));
 		if ($this->request->is('post')) {

@@ -48,7 +48,7 @@
 		<li><?php echo $this->Html->link(__('New Colaborador'), array('controller' => 'colaboradores', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Aplicaciones'), array('controller' => 'aplicaciones', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Aplicacion'), array('controller' => 'aplicaciones', 'action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Base Datos'), array('controller' => 'basedatos', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Base Datos'), array('controller' => 'base_datos', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Base Dato'), array('controller' => 'base_datos', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('List Lenguajes'), array('controller' => 'lenguajes', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Lenguaje'), array('controller' => 'lenguajes', 'action' => 'add')); ?> </li>

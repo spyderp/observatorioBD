@@ -36,6 +36,7 @@ class AppController extends Controller {
   	const ERROR = 2;
   	const WARNING = 3;
   	const INFO = 4;	
+	public $theme = 'Observatorio';
 	public $helpers = array('Js' => array('Renamezero.Jquery'), 'Renamezero.Formato', 'Renamezero.FormExtend', 'Renamezero.Grid', 'Session', 'Renamezero.HtmlExtend');
 	//Configuración de los componentes
 	public $components = array( 'Auth' => array(

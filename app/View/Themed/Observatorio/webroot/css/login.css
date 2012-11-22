@@ -1,0 +1,38 @@
+#body{ background-color: #e6e6e6; font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;   }
+.logo{ margin-top:100px; animation:rollIn 1s both;}
+#box{ background-color:#fff; border:3px solid #666; border-radius:10px; max-width:445px; margin-top:40px; box-shadow:10px 10px 15px #000; animation:shake 1s both; }
+#header{ background: -*-linear-gradient(top, #5b97bc 0%,#446d87 100%); border-top-left-radius: 7px; border-top-right-radius: 7px;  text-align: center; padding:5px 0px;  }
+h1{ font-size: 1.5em; font-weight:bold; color: #fff; display:inline-block; padding: 0; margin:0;   }
+#section{ padding: 10px 20px; text-align:left; }
+img{ vertical-align:middle; }
+/*formularios*/
+form div.input { margin-bottom:5px; display:inline-block;}
+form label{  color:#999; text-align:left; font-size:0.875em;   width:93px; display:inline-block;   }
+form div.input input{ border:1px solid #ccc;  width:276px; height:26px;  }
+form input[type="submit"], .newPassword{ background: -*-linear-gradient(top, #dfefff 0%,#97bede 100%); border:1px solid #46728D; color:#000; font-size:0.875em; font-weight:bold; text-decoration:none; padding:3px 8px 0px; }
+form input[type="submit"]:hover, .newPassword:hover{ background: -*-linear-gradient(top, #c7d9e2 0%,#8eaece 100%); }
+form input[type="submit"]{border-top-left-radius:15px; border-bottom-left-radius:15px; border-right: none; }
+.newPassword{ border-top-right-radius: 15px; border-bottom-right-radius: 15px;  padding-top:4px; } 
+#UsuarioEmail, #UsuarioPassword{background: url(../img/login_sprite.png) no-repeat; padding-left: 24px; }
+#UsuarioEmail{background-position:0px -26px;  }
+#UsuarioPassword{ background-position:0px 0px;  }
+hr{ border:none; background-color: #e6e6e6; height:1px;  }
+/*MENSAJES*/
+.message{background-size: 40px 30px;    line-height:20px; color:#fff;	font-size: 0.875em; font-weight:bold; padding:10px; text-shadow: 0 1px 0 rgba(0,0,0,.5); text-align:center;  background-image: -*-linear-gradient(top right, rgba(255, 255, 255, .05) 25%, transparent 25%,	transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%, transparent 75%, transparent);	}
+.msgError{background-color: #b02020; border-bottom:2px solid #750202;}
+#flashMessage{animation:fadeInDown 2s both;}
+
+@keyframes fadeInDown {
+    0% {opacity: 0; transform: translateY(-20px);}
+	100% {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes shake {
+    0%, 100% {transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+	20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+@keyframes rollIn {
+	0% { opacity: 0; transform: translateX(-300%) rotate(-150deg); }
+	100% { opacity: 1; transform: translateX(0px) rotate(0deg); }
+}

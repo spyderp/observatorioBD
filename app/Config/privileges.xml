@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<privileges>
+	<group id="usuarios" name="Usuarios">
+		<privilege id="usuarios_index" label="Listar Usuarios">
+			<controller>usuarios</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="usuarios_view" label="Ver Usuarios">
+			<controller>usuarios</controller>
+			<action>view</action>
+		</privilege>
+		<privilege id="usuarios_add" label="Agregar Usuarios">
+			<controller>usuarios</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="usuarios_edit" label="Editar Usuarios">
+			<controller>usuarios</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="usuarios_delete" label="Eliminar Usuarios">
+			<controller>usuarios</controller>
+			<action>delete</action>
+		</privilege>
+        <privilege id="roles_index" label="Listar Roles">
+			<controller>roles</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="roles_add" label="Agregar Roles">
+			<controller>roles</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="roles_edit" label="Editar Roles">
+			<controller>roles</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="roles_delete" label="Eliminar Roles">
+			<controller>roles</controller>
+			<action>delete</action>
+		</privilege>
+    </group>
+    <group id="empresas" name="Empresas">
+		<privilege id="empresas_index" label="Listar Base de datos">
+			<controller>empresas</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="empresas_add" label="Agregar Empresa">
+			<controller>empresas</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="empresas_edit" label="Editar Empresa">
+			<controller>empresas</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="empresas_del" label="Borrar  Empresa">
+			<controller>empresas</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="base_datos_index" label="Listar Base de datos">
+			<controller>base_datos</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="base_datos_add" label="Agregar Base de datos">
+			<controller>base_datos</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="base_datos_edit" label="Editar Base de datos">
+			<controller>base_datos</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="base_datos_del" label="Borrar  Base de datos">
+			<controller>base_datos</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="lenguajes_index" label="Listar Lenguaje">
+			<controller>lenguajes</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="lenguajes_add" label="Agregar Lenguaje">
+			<controller>lenguajes</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="lenguajes_edit" label="Editar Lenguaje">
+			<controller>lenguajes</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="lenguajes_del" label="Borrar  Lenguaje">
+			<controller>lenguajes</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="sistema_operativos_index" label="Listar Sistema Operativo">
+			<controller>sistemasOperativos</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="sistema_operativos_add" label="Agregar Sistema Operativo">
+			<controller>sistema_operativos</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="sistema_operativos_edit" label="Editar Sistema Operativo">
+			<controller>sistema_operativos</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="sistema_operativos_del" label="Borrar  Sistema Operativo">
+			<controller>sistema_osssperativos</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="aplicaciones_index" label="Listar Aplicaciones">
+			<controller>aplicaciones</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="aplicaciones_add" label="Agregar Aplicaciones">
+			<controller>aplicaciones</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="aplicaciones_edit" label="Editar Aplicaciones">
+			<controller>aplicaciones</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="aplicaciones_del" label="Borrar  Aplicaciones">
+			<controller>aplicaciones</controller>
+			<action>del</action>
+		</privilege>
+	</group>		
+	<group id="universidad" name="Universidades">
+		<privilege id="universidades_index" label="Listar Universidades">
+			<controller>universidades</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="universidades_add" label="Agregar Universidad">
+			<controller>universidades</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="universidades_edit" label="Editar Universidad">
+			<controller>universidades</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="universidades_del" label="Borrar  Universidad">
+			<controller>universidades</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="alianzas_index" label="Listar Alianzas">
+			<controller>alianzas</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="alianzas_add" label="Agregar Alianzas">
+			<controller>alianzas</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="alianzas_edit" label="Editar Alianza">
+			<controller>alianzas</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="alianzas_del" label="Borrar  Alianza">
+			<controller>alianzas</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="carreras_index" label="Listar Carrera">
+			<controller>carreras</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="carreras_add" label="Agregar Carrera">
+			<controller>carreras</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="carreras_edit" label="Editar Carrera">
+			<controller>carreras</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="carreras_del" label="Borrar  Carrera">
+			<controller>carreras</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="detalles_universidades_index" label="Listar Detalles Universidad">
+			<controller>detalles_universidades</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="detalles_universidades_add" label="Agregar Detalles Universidad">
+			<controller>detalle_universidades</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="detalles_universidades_edit" label="Editar Detalles Universidad">
+			<controller>detalles_universidades</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="detalles_universidades_del" label="Borrar  Detalles Universidad">
+			<controller>detalles_universidades</controller>
+			<action>del</action>
+		</privilege>
+	</group>		
+	<group id="recursos_humanos" name="Recursos Humanos">
+		<privilege id="recursos_humanos_index" label="Listar Recursos Humanos">
+			<controller>recursos_humanos</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="recursos_humanos_add" label="Agregar Recursos Humanos">
+			<controller>recursos_humanos</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="recursos_humanos_edit" label="Editar Recursos Humanos">
+			<controller>recursos_humanos</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="recursos_humanos_del" label="Borrar  Recursos Humanos">
+			<controller>recursos_humanos</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="carreras_index" label="Listar Carreras">
+			<controller>carreras</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="carreras_add" label="Agregar Carreras">
+			<controller>carreras</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="carreras_edit" label="Editar Carreras">
+			<controller>carreras</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="carreras_del" label="Borrar  Carreras">
+			<controller>carreras</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="idiomas_index" label="Listar Idiomas">
+			<controller>idiomas</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="idiomas_add" label="Agregar Idiomas">
+			<controller>idiomas</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="idiomas_edit" label="Editar Idiomas">
+			<controller>idiomas</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="idiomas_del" label="Borrar  Idiomas">
+			<controller>idiomas</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="titulos_index" label="Listar Titulos">
+			<controller>titulos</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="titulos_add" label="Agregar Titulos">
+			<controller>titulos</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="titulos_edit" label="Editar Titulos">
+			<controller>titulos</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="titulos_del" label="Borrar  Titulos">
+			<controller>titulos</controller>
+			<action>del</action>
+		</privilege>
+		<privilege id="colaboradores_index" label="Listar Colaboradores">
+			<controller>colaboradores</controller>
+			<action>index</action>
+		</privilege>
+		<privilege id="colaboradores_add" label="Agregar Colaboradores">
+			<controller>colaboradores</controller>
+			<action>add</action>
+		</privilege>
+		<privilege id="colaboradores_edit" label="Editar Colaboradores">
+			<controller>colaboradores</controller>
+			<action>edit</action>
+		</privilege>
+		<privilege id="colaboradores_del" label="Borrar  Colaboradores">
+			<controller>colaboradores</controller>
+			<action>del</action>
+		</privilege>
+	</group>		
+</privileges>
