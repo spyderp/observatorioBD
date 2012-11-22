@@ -43,18 +43,7 @@ class Usuario extends UsuariosAppModel {
  *
  * @var array
  */
-	public $hasMany = array(
-		'Taxi' => array(
-			'className' => 'Taxi',
-			'foreignKey' => 'usuario_id',
-			'dependent' => false,
-		),
-		'Registro' => array(
-			'className' => 'Registro',
-			'foreignKey' => 'usuario_id',
-			'dependent' => false,
-		)
-	);
+
 	
     /**
      * (non-PHPdoc)
